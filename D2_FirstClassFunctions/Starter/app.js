@@ -28,4 +28,4 @@ logGreeting(greetMe);
 // use a function to expression to create a function on the fly
 logGreeting(function(){
   console.log('Hello Tony!');
-})
+});
