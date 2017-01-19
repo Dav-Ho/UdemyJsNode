@@ -1,7 +1,5 @@
 
 {
-  "food1": "chicken and rice",
-  "food2": "Hot dog"
+  "restaurant1": "Applebees",
+  "restaurant2": "Chili"
 }
-
-/* Json text format */

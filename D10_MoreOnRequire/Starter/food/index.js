@@ -1,7 +1,7 @@
 var chicken = require("./chicken");
-var seafood = require("./seafood");
+var vegetable = require("./vegetable");
 
 module.exports = {
   chicken: chicken,
-  seafood: seafood
-}; 
+  vegetable: vegetable 
+};
