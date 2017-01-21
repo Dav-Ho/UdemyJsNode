@@ -1,1 +1,2 @@
-var exports = require("./greet.js");
+var exports = require("./greet");
+var greet = require("./greet2"); 
