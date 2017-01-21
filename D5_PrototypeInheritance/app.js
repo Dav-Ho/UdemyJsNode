@@ -18,7 +18,7 @@ var amy = new Person("Amy", "Tai");
 
 
 console.log(john.firstname + " " + john.lastname);
-john.greet()
+john.greet();
 
 console.log(amy.firstname + " " + amy.lastname);
-amy.greet()
+amy.greet(); 
