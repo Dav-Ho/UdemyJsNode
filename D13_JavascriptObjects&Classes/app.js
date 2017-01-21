@@ -7,6 +7,12 @@ var obj = {
 console.log(obj.greet); // dot notation is ideal
 console.log(obj['greet']);
 
+// javascipt can use variables that can dynamically grab
+// a values from properties or method on an object.
+
+var prop = 'greet'; // value in obj
+console.log(obj[prop]); // prop has the value of hello.
+
 // functions and arrays
 var arr = [];  //array is a collection of things
 
@@ -24,5 +30,9 @@ arr.push(function(){
 
 // loops through each object in the array and invoke them.
 arr.forEach(function(item) {
-  item(); // invoke 
+  item(); // invoke
 });
+
+// Two important concepts to understand:
+// 1. Variables can dynamically grab values from properties or method of an object.
+// 2. Functions can be put into arrays and iterates through each function while invoking them.  
